@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:gravity="center_horizontal">
+    android:gravity="bottom|end">
 
     <TextView
         android:layout_width="wrap_content"
@@ -22,12 +22,16 @@
         android:layout_width="160dp"
         android:layout_height="225dp"
         android:layout_margin="@dimen/marginNormal"
-        android:src="@drawable/burger"/>
+       android:background="@drawable/image1"/>
 
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
+
+
         android:layout_width="160dp"
         android:layout_height="225dp"
-        android:layout_margin="@dimen/marginNormal"
-        android:src="@drawable/burger"/>
+        app:shapeAppearanceOverlay="@style/cut"
 
+        android:layout_margin="@dimen/marginNormal"
+        app:srcCompat="@drawable/burger"
+/>
 </LinearLayout>
