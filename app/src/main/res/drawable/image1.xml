@@ -3,13 +3,13 @@
     <item
 
         android:drawable="@drawable/burger"
-        android:width="150dp"
-        android:height="180dp"
+        android:width="160dp"
+        android:height="225dp"
         />
     <item
 
         android:drawable="@drawable/ic_android"
-        android:width="150dp"
-        android:height="180dp"
+        android:width="160dp"
+        android:height="225dp"
         />
 </layer-list>

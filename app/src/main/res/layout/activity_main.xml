@@ -19,8 +19,8 @@
         app:drawableStartCompat="@drawable/ic_android" />
 
     <ImageView
-        android:layout_width="160dp"
-        android:layout_height="225dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_margin="@dimen/marginNormal"
        android:background="@drawable/image1"/>
 
